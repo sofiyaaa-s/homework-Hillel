@@ -1,0 +1,75 @@
+.first {
+    margin: 0 auto;
+}
+
+.first-block-1 {
+    float: left;
+}
+
+.first-block-2 {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.second {
+    margin: 0 auto;
+}
+
+.second-block-1 {
+    float: left;
+}
+
+.second-block-2 {
+    float: right;
+    margin-left: 5px;
+}
+
+.second-block-3 {
+    float: right;
+    margin-left: 5px;
+}
+
+.second-block-4 {
+    float: right;
+    margin-left: 5px;
+}
+
+.second-block-5 {
+    float: right;
+    margin-left: 5px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.third {
+    margin: 0 auto;
+}
+
+.third-block-1 {
+    float:left;
+    margin-right: 5px;
+}
+
+.third-block-2 {
+    float:left;
+}
+
+.third-block-3 {
+    float:right;
+    margin-right: 5px;
+}
+
+.third-block-4 {
+    float:right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
