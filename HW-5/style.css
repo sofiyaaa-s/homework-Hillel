@@ -22,26 +22,28 @@
     float: left;
 }
 
-.second-block-2 {
+.wrap {
     float: right;
-    margin-left: 5px;
+}
+
+.second-block-2 {
+    float: left;
+    margin-right: 5px;
 }
 
 .second-block-3 {
-    float: right;
-    margin-left: 5px;
+    float: left;
+    margin-right: 5px;
 }
 
 .second-block-4 {
-    float: right;
-    margin-left: 5px;
+    float: left;
+    margin-right: 5px;
 }
 
 .second-block-5 {
-    float: right;
-    margin-left: 5px;
+    float: left;
 }
-
 .clearfix {
     clear: both;
 }
@@ -50,24 +52,27 @@
     margin: 0 auto;
 }
 
+.container {
+    float: right;
+}
+
 .third-block-1 {
-    float:left;
-    margin-right: 5px;
+    float: left;
 }
 
 .third-block-2 {
-    float:left;
+    float: left;
+    margin-left: 5px;
 }
 
 .third-block-3 {
-    float:right;
+    float: left;
     margin-right: 5px;
 }
 
 .third-block-4 {
-    float:right;
+    float: right;
 }
-
 .clearfix {
     clear: both;
 }

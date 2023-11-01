@@ -11,7 +11,6 @@
     <div class="first">
       <div class="first-block-1">1</div>
       <div class="first-block-2">2</div>
-
       <div class="clearfix"></div>
     </div>
 
@@ -19,11 +18,13 @@
 
     <div class="second">
       <div class="second-block-1">1</div>
-      <div class="second-block-5">5</div>
-      <div class="second-block-4">4</div>
+
+      <div class="wrap">
+      <div class="second-block-2">2</div>
       <div class="second-block-3">3</div>
-      <div class="second-block-2">2</div> 
-      
+      <div class="second-block-4">4</div>
+      <div class="second-block-5">5</div>
+    </div>
       <div class="clearfix"></div>
     </div>
 
@@ -32,11 +33,12 @@
     <div class="third">
       <div class="third-block-1">1</div>
       <div class="third-block-2">2</div>
-      <div class="third-block-4">4</div>
-      <div class="third-block-3">3</div>
-    
-      <div class="clearfix"></div>
 
+      <div class="container">
+      <div class="third-block-3">3</div>
+      <div class="third-block-4">4</div>
+    </div>
+      <div class="clearfix"></div>
     </div>
 
     <style>
@@ -46,9 +48,17 @@
         background-color: gray;
       }
 
-      .first *,
-      .second *,
-      .third * {
+      .first-block-1,
+      .first-block-2,
+      .second-block-1,
+      .second-block-2,
+      .second-block-3,
+      .second-block-4,
+      .second-block-5,
+      .third-block-1,
+      .third-block-2,
+      .third-block-3,
+      .third-block-4 {
         width: 50px;
         background-color: coral;
         font-weight: bold;
