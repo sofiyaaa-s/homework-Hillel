@@ -1,0 +1,201 @@
+.header {
+    border: #EEEFF1;;
+    background-color: #EEEFF1;
+    padding: 300px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.screen-menu {
+    font-size: 45px;
+    font-family: Roboto;
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+    left: 200px;
+}
+
+.text {
+    color: black;
+    padding: 2px;
+}
+
+.list-1 {
+    color: #34547A;
+    display: inline-block;
+    border: 1px solid #EEEFF1;
+    margin-right: 10px;
+}
+
+.list {
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid #EEEFF1;
+    padding: 30px;
+}
+
+.design {
+    font-family: Roboto;
+    font-size: 80px;
+    text-align: left;
+    padding: 5px;
+    position: relative;
+    bottom: 50px;
+    left: 200px;
+}
+
+.about {
+    font-family: Roboto;
+    font-size: 40px;
+    text-align: left;
+    padding: 5px;
+    position: relative;
+    bottom: 5px;
+    left: 200px;
+}
+
+.write {
+    font-family: Roboto;
+    font-size: 35px;
+    text-align: left;
+    display: inline-block;
+    padding: 70px 150px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    color: white;
+    background-color: #34547A;
+}
+
+
+
+
+
+.header-two {
+    border: #fafbfde4;
+    background-color: #fafbfde4;
+    padding: 200px;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.melor {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.me {
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    left: 100px;
+}
+
+
+
+
+
+.header-three {
+    border: #34547A;
+    background: #34547A;
+    padding: 250px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+.mac {
+    border: #EEEFF1;
+    background-color: #EEEFF1;
+    padding: 700px;
+}
+
+.maco {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.lor {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    bottom: 360px;
+    left: 100px;
+}
+
+.work {
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    bottom: 600px;
+    left: 100px;
+}
+
+
+.code {
+    text-align: center;
+    position: relative;
+}
+
+
+
+
+.end {
+    border: #34547A;
+    background-color: #34547A;
+    padding: 50px;
+}
+
+.cont {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page {
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 200px;
+}
+
+.name {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+    position: relative;
+    top: 1px;
+    left: 200px;
+}
+
+
+
+
