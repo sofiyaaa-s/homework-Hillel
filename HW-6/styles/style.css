@@ -13,8 +13,9 @@
     font-size: 16px;
     max-width: 715px;
     font-family: Roboto;
-    text-align: center;
+    text-align: left;
     position: relative;
+    left: 60px;
     bottom: 40px;
 }
 
@@ -27,7 +28,7 @@
     color: #34547A;
     display: inline-block;
     border: 1px solid #EEEFF1;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .list {
@@ -93,7 +94,7 @@
     text-align: center;
     position: relative;
     top: 43px;
-    left: 80px;
+    left: 60px;
 }
 
 .me {
@@ -104,15 +105,17 @@
     text-align: center;
     position: relative;
     bottom: 40px;
-    left: 80px;
+    left: 60px;
 }
+
+
 
 
 
 .header-three {
     border: #34547A;
     background: #34547A;
-    padding: 10px;
+    padding: 15px;
 }
 
 .wrapper {
@@ -120,52 +123,24 @@
     margin: 0 auto;
 }
 
-.numbers-item {
-    padding: 30px;
-    position: relative;
-    top: 20px;
-    left: 225px;
-}
-
-.numbers-item2 {
-    padding: 30px;
-    position: relative;
-    top: 20px;
-    left: 245px;
-}
-
-.numbers-item3 {
-    padding: 30px;
-    position: relative;
-    top: 20px;
-    left: 265px;
-}
-
-.numbers-item4 {
-    padding: 30px;
-    position: relative;
-    top: 20px;
-    left: 285px;
-}
-
-.numbers-item5 {
-    padding: 30px;
-    position: relative;
-    top: 20px;
-    left: 305px;
-}
-
-.numbers-item6 {
-    padding: 30px;
-    position: relative;
-    top: 20px;
-    left: 325px;
-}
-
 .plus {
-    color: white;
-    font-size: 15px;
-    height: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    left: 250px;
+}
+
+.all {
+    width: 120px;
+    display: inline-block;
+}
+
+.numbers-item {
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    top: 12px;
+    left: 15px;
 }
 
 .old {
@@ -173,102 +148,18 @@
     font-size: 15px;
     padding: 5px;
     position: relative;
-    bottom: 60px;
-    left: 422px;
+    bottom: 40px;
+    left: 75px;
 }
-
-.old2 {
-    color: white;
-    font-size: 15px;
-    padding: 5px;
-    position: relative;
-    bottom: 84px;
-    left: 555px;
-}
-
-.old3 {
-    color: white;
-    font-size: 15px;
-    padding: 5px;
-    position: relative;
-    bottom: 109px;
-    left: 690px;
-}
-
-.old4 {
-    color: white;
-    font-size: 15px;
-    padding: 5px;
-    position: relative;
-    bottom: 133px;
-    left: 820px;
-}
-
-.old5 {
-    color: white;
-    font-size: 15px;
-    padding: 5px;
-    position: relative;
-    bottom: 157px;
-    left: 955px;
-}
-
-.old6 {
-    color: white;
-    font-size: 15px;
-    padding: 5px;
-    position: relative;
-    bottom: 181px;
-    left: 1090px;
-} 
 
 .project {
     color: white;
-    font-size: 12px;
-    height: 20px;
+    padding: 1px;
+    position: relative;
+    bottom: 40px;
+    left: 75px;
 }
 
-.all {
-    padding: 5px;
-    position: relative;
-    bottom: 60px;
-    left: 422px;
-}
-
-.all-2 {
-    padding: 5px;
-    position: relative;
-    bottom: 81px;
-    left: 555px;
-}
-
-.all-3 {
-    padding: 5px;
-    position: relative;
-    bottom: 104px;
-    left: 690px;
-}
-
-.all-4 {
-    padding: 5px;
-    position: relative;
-    bottom: 126px;
-    left: 820px;
-}
-
-.all-5 {
-    padding: 5px;
-    position: relative;
-    bottom: 147px;
-    left: 955px;
-}
-
-.all-6 {
-    padding: 5px;
-    position: relative;
-    bottom: 168px;
-    left: 1090px;
-}
 
 
 
@@ -359,6 +250,7 @@
     bottom: 6px;
     left: 250px;
 }
+
 
 
 
