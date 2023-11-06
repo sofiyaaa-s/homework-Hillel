@@ -11,6 +11,7 @@
 
 .screen-menu {
     font-size: 16px;
+    max-width: 715px;
     font-family: Roboto;
     text-align: center;
     position: relative;
@@ -43,7 +44,7 @@
     padding: 5px;
     position: relative;
     top: 5px;
-    left: 85px;
+    left: 78px;
 }
 
 .about {
@@ -53,7 +54,7 @@
     padding: 5px;
     position: relative;
     top: 15px;
-    left: 85px;
+    left: 78px;
 }
 
 .write {
@@ -64,7 +65,7 @@
     padding: 15px 20px;
     position: relative;
     top: 40px;
-    left: 85px;
+    left: 83px;
     color: white;
     background-color: #34547A;
 }
@@ -76,7 +77,7 @@
 .header-two {
     border: #fafbfde4;
     background-color: #fafbfde4;
-    padding: 20px;
+    padding: 60px;
 }
 
 .wrap {
@@ -85,6 +86,7 @@
 }
 
 .melor {
+    width: 1100px;
     font-family: Roboto;
     font-size: 13px;
     font-weight: 400;
@@ -95,6 +97,7 @@
 }
 
 .me {
+    width: 1100px;
     font-family: Roboto;
     font-size: 25px;
     font-weight: 500;
@@ -106,17 +109,165 @@
 
 
 
-
-
 .header-three {
     border: #34547A;
     background: #34547A;
-    padding: 40px;
+    padding: 10px;
 }
 
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.numbers-item {
+    padding: 30px;
+    position: relative;
+    top: 20px;
+    left: 225px;
+}
+
+.numbers-item2 {
+    padding: 30px;
+    position: relative;
+    top: 20px;
+    left: 245px;
+}
+
+.numbers-item3 {
+    padding: 30px;
+    position: relative;
+    top: 20px;
+    left: 265px;
+}
+
+.numbers-item4 {
+    padding: 30px;
+    position: relative;
+    top: 20px;
+    left: 285px;
+}
+
+.numbers-item5 {
+    padding: 30px;
+    position: relative;
+    top: 20px;
+    left: 305px;
+}
+
+.numbers-item6 {
+    padding: 30px;
+    position: relative;
+    top: 20px;
+    left: 325px;
+}
+
+.plus {
+    color: white;
+    font-size: 15px;
+    height: 20px;
+}
+
+.old {
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    position: relative;
+    bottom: 60px;
+    left: 422px;
+}
+
+.old2 {
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    position: relative;
+    bottom: 84px;
+    left: 555px;
+}
+
+.old3 {
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    position: relative;
+    bottom: 109px;
+    left: 690px;
+}
+
+.old4 {
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    position: relative;
+    bottom: 133px;
+    left: 820px;
+}
+
+.old5 {
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    position: relative;
+    bottom: 157px;
+    left: 955px;
+}
+
+.old6 {
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    position: relative;
+    bottom: 181px;
+    left: 1090px;
+} 
+
+.project {
+    color: white;
+    font-size: 12px;
+    height: 20px;
+}
+
+.all {
+    padding: 5px;
+    position: relative;
+    bottom: 60px;
+    left: 422px;
+}
+
+.all-2 {
+    padding: 5px;
+    position: relative;
+    bottom: 81px;
+    left: 555px;
+}
+
+.all-3 {
+    padding: 5px;
+    position: relative;
+    bottom: 104px;
+    left: 690px;
+}
+
+.all-4 {
+    padding: 5px;
+    position: relative;
+    bottom: 126px;
+    left: 820px;
+}
+
+.all-5 {
+    padding: 5px;
+    position: relative;
+    bottom: 147px;
+    left: 955px;
+}
+
+.all-6 {
+    padding: 5px;
+    position: relative;
+    bottom: 168px;
+    left: 1090px;
 }
 
 
@@ -125,46 +276,52 @@
 .mac {
     border: #EEEFF1;
     background-color: #EEEFF1;
-    padding: 150px;
+    padding: 50px;
 }
 
-.maco {
+.visit {
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .lor {
+    width: 700px;
     font-family: Roboto;
     font-size: 13px;
     font-weight: 400;
     text-align: center;
     position: relative;
-    bottom: 80px;
-    left: 80px;
+    bottom: 1px;
+    left: 280px;
 }
 
 .work {
+    max-width: 700px;
     font-family: Roboto;
     font-size: 25px;
     font-weight: 500;
     text-align: center;
     position: relative;
-    bottom: 140px;
-    left: 80px;
+    bottom: 65px;
+    left: 285px;
 }
 
-
 .code {
+    width: 450px;
     font-size: 25px;
     font-weight: 500;
     text-align: center;
     position: relative;
-    bottom: 250px;
-    left: 350px;
+    top: 10px;
+    left: 400px;
 }
 
-.vector {
-    
+.vec {
+    width: 85px;
+    text-align: center;
+    position: relative;
+    top: 93px;
+    left: 130px;
 }
 
 
@@ -173,7 +330,7 @@
 .end {
     border: #34547A;
     background-color: #34547A;
-    padding: 1px;
+    padding: 15px;
 }
 
 .cont {
@@ -188,8 +345,8 @@
     text-align: left;
     color: white;
     position: relative;
-    top: 27px;
-    left: 80px;
+    top: 20px;
+    left: 250px;
 }
 
 .name {
@@ -199,8 +356,8 @@
     text-align: left;
     color: white;
     position: relative;
-    top: 1px;
-    left: 80px;
+    bottom: 6px;
+    left: 250px;
 }
 
 
