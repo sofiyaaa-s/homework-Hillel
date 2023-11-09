@@ -13,16 +13,36 @@
     padding-bottom: 25px;
 }
 
-.link1 {
+.link-home {
     font-size: 16px;
     font-family: Roboto;
     color: #34547A;
 }
 
-.link {
+.link-home::before {
+    content: "🦋";
+}
+
+.link-about ,.link-works, .link-process, .link-contacts {
     font-size: 16px;
     font-family: Roboto;
     color: black;
+}
+
+.link-about::before {
+    content: "🔜";
+} 
+
+.link-works::before {
+    content: "🖇";
+}
+
+.link-process::before {
+    content: "🗝";
+}
+
+.link-contacts::before {
+    content: "📞";
 }
 
 .nav-item1 {
@@ -126,12 +146,12 @@
 
 .old { 
     font-size: 15px;
+    margin-bottom: 2px;
 }
 
 .icon-text {
     color: white;
     display: inline-block;
-    margin-top: 5px;
 }
 
 
