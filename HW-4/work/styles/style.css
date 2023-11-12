@@ -1,0 +1,55 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: #B0C6FF;
+    background-color: #B0C6FF;
+    display: flex;
+}
+
+.top {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+}
+
+ .bob {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    text-align: center;
+}
+
+ .text {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+ .minion {
+    background-color: #FFFFFF;
+}
+
+ .button {
+    font-size: 15px;
+    text-align: center;
+    background-color:#6177EB;
+    color: #FFFFFF;
+    padding: 20px 40px;
+    line-height: 2px;
+}
+
+ .card-item {
+    width: 200px;       
+    background-color: #FFFFFF;
+}
+
+ .cards {
+    
+}

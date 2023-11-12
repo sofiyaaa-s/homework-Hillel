@@ -1,0 +1,507 @@
+.header {
+    border: #F9F6F5;
+    background-color: #F9F6F5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-wrap {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.dude {
+    font-size: 16px;
+    font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
+    font-weight: 700;
+}
+
+.dude::after {
+    content: "";
+    display: block;
+    background-color: black;
+    height: 1px;
+}
+
+.link {
+    font-size: 10px;
+    font-weight: 400;
+    color: #222222;
+    font-family: Roboto,'Helvetica Neue',sans-serif ;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.picture {
+    margin-right: 10px;
+}
+
+.icons-item {
+    display: inline-block;
+}
+
+.flex-wrap {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.products {
+    font-family: Red_Hat_Display,'Helvetica Neue',sans-serif;
+    font-size: 40px;
+    margin-top: 60px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.about {
+    font-family: Roboto,'Helvetica Neue',sans-serif ;
+    margin-top: 25px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #555555;
+    font-weight: 400;
+}
+
+.search {
+    width: 260px;
+    margin-top: 20px;
+}
+
+.button {
+    font-size: 14px;
+    color: #F9F6F5;
+    background-color: #402F2C;
+    padding: 14px 28px;
+    margin-top: 45px;
+}
+
+.zein {
+    width: 500px;
+}
+
+
+
+
+.header-two {
+    border: white;
+    background-color: white;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapp {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.flex-company-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-list::after {
+    content: "";
+    display: block;
+    background-color: #EEEEEE;
+    height: 1px;
+    position: relative;
+    top: 40px;
+}
+
+.company-list::before {
+    content: "";
+    display: block;
+    background-color: #EEEEEE;
+    height: 1px;
+    position: relative;
+    bottom: 40px;
+}
+
+.flex-cosmetic-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular {
+    font-family: Red_Hat_Display,'Helvetica Neue',sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.about-pop {
+    font-family: Roboto,'Helvetica Neue',sans-serif ;
+    color: #555555;
+    margin-top: 25px;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.discover {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow {
+    font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
+    margin-top: 180px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.arrow::after {
+    content: "";
+    display: block;
+    background-color: black;
+    height: 1px;
+}
+
+.arrow-right {
+    margin-top: 176px;
+    margin-left: 5px;
+}
+
+.flex-face {
+    display: flex;
+    justify-content: space-between;
+}
+
+.face {
+    border: 1px solid #685A5230;
+    margin-top: 20px;
+}
+
+.bottle {
+    width: 540px;
+}
+
+.rectangle {
+    width: 125px;
+    height: 10px;
+    background-color: #FBEFE7;
+    position: relative;
+    top: 50px;
+    left: 208px;
+}
+
+.title {
+    font-family: Red_Hat_Display,'Helvetica Neue',sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    line-height: 40px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.title-about {
+    font-family: Roboto,'Helvetica Neue',sans-serif ;
+    color: #555555;
+    margin-top: 7px;
+    line-height: 20px;
+    font-size: 14px;
+    margin-left: 15px;
+    font-weight: 400;
+}
+
+.buy {
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+
+.flex-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-buy {
+    font-size: 14px;
+    color: #F9F6F5;
+    background-color: #402F2C;
+    padding: 14px 28px;
+    margin-left: 15px;
+}
+
+.button-add {
+    border: 1px solid #685A5275;
+    font-size: 14px;
+    padding: 14px 28px;
+    margin-left: 17px;
+    background-color: white;
+}
+
+.text {
+    font-size: 23px;
+    font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
+    margin-top: 58px;
+    margin-right: 20px;
+}
+
+.header-three {
+    border: #FDF8F5;
+    background-color: #FDF8F5;
+}
+
+.box {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.box-wrap {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.flex-information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one-hundred {
+    font-size: 30px;
+    font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.title-ab {
+    font-family: Roboto,'Helvetica Neue',sans-serif ;
+    color: #555555;
+    font-size: 17px;
+    margin-top: 24px;
+    font-weight: 400;
+}
+
+.one-hundred::after {
+    content: "";
+    display: block;
+    background-color: black;
+    height: 2px;
+    width: 88px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+
+.perfect-box {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.perfect-wrap {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.flex-about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-box {
+    margin-top: 50px;
+}
+
+.beauty-box {
+    font-family: Red_Hat_Display,'Helvetica Neue',sans-serif;
+    font-size: 45px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.box-infa {
+    font-family: Roboto,'Helvetica Neue',sans-serif ;
+    color: #555555;
+    font-size: 20px;
+    margin-top: 25px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.lili {
+    width: 550px;
+}
+
+.flex-professional {
+    display: flex;
+    justify-content: space-between;
+}
+
+.amazing-box {
+    margin-top: 150px;
+}
+
+.girl {
+    width: 530px;
+    margin-top: 70px;
+}
+
+.super-des {
+    font-family: Roboto,'Helvetica Neue',sans-serif ;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.img-stars {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.info-pro {
+    font-family: Roboto,'Helvetica Neue',sans-serif ;
+    color: black;
+    font-size: 19px;
+    margin-top: 55px;
+    font-weight: 500;
+}
+
+.pro {
+    font-family: Roboto,'Helvetica Neue',sans-serif ;
+    color: #555555;
+    font-size: 15px;
+    margin-top: 5px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+
+.header-five {
+    border: #FAFAFA;
+    background-color: #FAFAFA;
+}
+
+.container-info  {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrap-info {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe {
+    font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.flex-sub {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.info-email {
+    font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
+    color:#555555;
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 100px;
+    margin-top: 28px;
+    margin-left: 5px;
+}
+
+.button-footer {
+    font-size: 14px;
+    color: #F9F6F5;
+    background-color: #402F2C;
+    padding: 10px 23px; 
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.footer::after {
+    content: "";
+    display: block;
+    background-color: #DDDDDD;
+    height: 1px;
+    position: relative;
+    top: 35px;
+}
+
+.footer-dudeshape {
+    margin-top: 80px;
+}
+
+.dudeshape {
+    font-size: 25px;
+    font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
+    font-weight: 700;
+}
+
+.dudeshape::after {
+    content: "";
+    display: block;
+    background-color: black;
+    height: 2px;
+    width: 136px;
+}
+
+.dude-about {
+    font-family: Red_Hat_Display ,'Helvetica Neue',sans-serif ;
+    color: #555555;
+    margin-top: 27px;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.flex-footer-dude {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home {
+    font-size: 13px;
+    font-weight: 400;
+    color: #222222;
+    font-family: Roboto,'Helvetica Neue',sans-serif ;
+}
+
+.list-item {
+    margin-top: 14px;
+}
+
+.quick {
+    margin-bottom: 35px;
+}
+
+.quick-link {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.flex-social-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-img {
+    margin-top: 20px;
+}
