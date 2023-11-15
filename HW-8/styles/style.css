@@ -23,13 +23,7 @@
     font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
     font-weight: 700;
     font-style: italic;
-}
-
-.dude::after {
-    content: "";
-    display: block;
-    background-color: black;
-    height: 1px;
+    border-bottom: 2px solid black;
 }
 
 .link {
@@ -75,11 +69,6 @@
     font-weight: 400;
 }
 
-.search-butt {
-    width: 1200px;
-    margin: 0 auto;
-}
-
 .icons {
     position: relative;
     top: 35px;
@@ -118,6 +107,8 @@
  .cosmet {
     background-image: url(/img/image\ 1.png);
     background-size: cover;
+    position: relative;
+    top: 20px;
 } 
 
 
