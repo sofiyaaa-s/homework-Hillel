@@ -11,7 +11,7 @@
     <header class="header">
         <div class="container header-wrap">
             <div class="flex-container">
-                <h1 class="dude"><b><i>Dudeshape</i></b></h1>
+                <logo class="dude">Dudeshape</logo>
                 <nav class="navigation">
                     <ul class="list">
                         <li class="nav-item">
@@ -29,15 +29,21 @@
                     </ul>
                 </nav>
                 <div class="icons">
-                <div class="icons-item">
-                    <img class="picture" src="./img/Profile.png" alt="#" />
-                </div>
-                <div class="icons-item">
-                    <img class="picture" src="./img/Buy.png" alt="#" />
-                </div>
-                <div class="icons-item">
-                    <img class="picture" src="img/Frame.png" alt="#" />
-                </div>
+                    <div class="icons-item">
+                        <button class="button-icons">
+                        <img class="picture" src="./img/Profile.png" alt="#" />
+                    </button>
+                    </div>
+                    <div class="icons-item">
+                        <button class="button-icons">
+                        <img class="picture" src="./img/Buy.png" alt="#" />
+                    </button>
+                    </div>
+                    <div class="icons-item">
+                        <button class="button-icons">
+                        <img class="picture" src="img/Frame.png" alt="#" />
+                    </button>
+                    </div>
             </div>
             </div>
             <div class="flex-wrap">
@@ -48,20 +54,26 @@
                 typesetting industry. Lorem Ipsum has been the industry's</br>
                 standard dummy
             </p>
-            <div class="icon">
-                <img src="./img/Group 8.png" alt="#" class="search"/>
-            </div>
-            <div>
+
+                <div class="search-butt">
+                <div class="icons">
+                    <input type="text" class="search" placeholder= "Search..."/>
+                    <button class="button-search">
+                        <img src="./img/Search.png" alt="#" class="serach-img"/>
+                    </button>
+                </div>
+                </div>
+            <div class="shop-button">
             <button class="button">Shop Now</button>
         </div>
     </div>
             <div class="cosmet">
-                <img src="./img/image 1.png" alt="#" class="zein"/>
+                  <img src="./img/image 1.png" alt="#" class="zein"/> 
             </div>
         </div>        
     </header>
 
-    <header class="header-two">
+    <header class="main">
         <div class="wrapper wrapp">
             <div class="company-list">
                 <div class="flex-company-list">
@@ -140,28 +152,26 @@
         </div>
     </header>
 
-    <header class="header-three">
+    <header class="main-block">
         <div class="box box-wrap">
-            <div class="information">
                     <div class="flex-information">
                         <div class="percent">
-                            <h7 class="one-hundred"><b>100%</b></h7>
+                            <h7 class="one-hundred">100%</h7>
                             <p class="title-ab">Organic Products</p>
                         </div>
                         <div class="percent">
-                            <h7 class="one-hundred"><b>2M+</b></h7>
+                            <h7 class="one-hundred">2M+</h7>
                             <p class="title-ab">Yearly Sales</p>
                         </div>
                         <div class="percent">
-                            <h7 class="one-hundred"><b>1.9M+</b></h7>
+                            <h7 class="one-hundred">1.9M+</h7>
                             <p class="title-ab">Happy Customar</p>
                         </div>
                     </div>
-                </div>
         </div>
     </header>
 
-    <header class="header-four">
+    <header class="block-box">
         <div class="perfect-box perfect-wrap">
             <div class="block-about">
             <div class="flex-about">
@@ -216,28 +226,29 @@
         </div>
     </header>
 
-    <header class="header-five">
+    <header class="footer-box">
         <div class="container-info wrap-info">
             <div class="footer">
                 <div class="flex-footer">
                     <div class="subscribe">
                         <h11 class="news">Subscribe to Get Our Letest News</h11>
                     </div>
-                        <div class="flex-sub">
-                        <div class="info-footer">
-                            <p class="info-email">Enter email</p>
-                        </div>
-                        <div class="footer-button">
+
+                    <div class="footer-nav-info">
+                        <div class="info-input">
+                            <input type="text" class="mai" placeholder="Enter email"/>
+                            <div class="sub-button">
                             <button class="button-footer">Subscribe</button>
                         </div>
-                        </div>
                     </div>
+                </div>
+                </div>
                 </div>
 
                     <div class="footer-dudeshape">
                         <div class="flex-footer-dude">
                             <div class="dude-all">
-                    <h12 class="dudeshape"><b><i>Dudeshape</i></b></h12>
+                    <logo class="dudeshape">Dudeshape</logo>
                     <p class="dude-about">
                         Lorem Ipsum is simply dummy text of the</br>
                         printing and typesetting industry.</br>
@@ -266,6 +277,7 @@
                         <div class="quick">
                         <h13 class="quick-link">Contact Us</h13>
                     </div>
+                    <div class="nav-home">
                     <ul class="links">
                             <li class="list-item">
                                 <a href="#" class="home">oyasimnaeem@email.com</a>
@@ -274,23 +286,37 @@
                                 <a href="#" class="home">+123456789</a>
                             </li>
                         </ul>
-                        <div class="social-img">
+                    </div>
                             <div class="flex-social-img">
-                            <div class="list-item-social">
-                                <img src="./img/facebook 1.png" alt="#" class="social"/>
+                                <div class="social-img">
+                            <ul class="list-item-social">
+                                <li class="list-social">
+                                    <a href="#" class="nav-social">
+                                        <img src="./img/facebook 1.png" alt="#" class="social"/>
+                                    </a>
+                                </li>
                             </div>
-                            <div class="list-item-social">
+                            <div class="social-img">
+                                <li class="list-social">
+                                    <a href="#" class="nav-social">
                                 <img src="./img/twitter 1.png" alt="#" class="social"/>
+                                </a>
+                                </li>
                             </div>
-                            <div class="list-item-social">
+                                <div class="social-img">
+                                <li class="list-social">
+                                    <a href="#" class="nav-social">
                                 <img src="./img/instagram 1.png" alt="#" class="social"/>
+                                </a>
+                                </li>
                             </div>
-                        </div>
-                        </div>
+                            </ul>
+                            </div>
                 </div>
                 </div>
             </div>
         </div>
+    </div>
     </header>
 </body>
 </html>

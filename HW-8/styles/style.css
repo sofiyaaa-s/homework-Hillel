@@ -22,6 +22,7 @@
     font-size: 16px;
     font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
     font-weight: 700;
+    font-style: italic;
 }
 
 .dude::after {
@@ -43,12 +44,13 @@
     margin-right: 30px;
 }
 
-.picture {
-    margin-right: 10px;
-}
-
 .icons-item {
     display: inline-block;
+    margin-right: 30px;
+}
+
+.button-icons {
+    background-color: #F9F6F5;
 }
 
 .flex-wrap {
@@ -73,9 +75,32 @@
     font-weight: 400;
 }
 
+.search-butt {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.icons {
+    position: relative;
+    top: 35px;
+}
+
 .search {
-    width: 260px;
-    margin-top: 20px;
+    font-weight: 400;
+    color: #999999;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button-search {
+    color: #F9F6F5;
+    background-color: #402F2C;
+    padding: 6px 6px; 
+    position: absolute;
+    left: 125px;
+    top: 4px;
 }
 
 .button {
@@ -83,17 +108,22 @@
     color: #F9F6F5;
     background-color: #402F2C;
     padding: 14px 28px;
-    margin-top: 45px;
+    margin-top: 75px;
 }
 
 .zein {
     width: 500px;
 }
 
+ .cosmet {
+    background-image: url(/img/image\ 1.png);
+    background-size: cover;
+} 
 
 
 
-.header-two {
+
+.main {
     border: white;
     background-color: white;
 }
@@ -104,8 +134,18 @@
 }
 
 .wrapp {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.company-list {
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.group {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .flex-company-list {
@@ -113,33 +153,15 @@
     justify-content: space-between;
 }
 
-.company-list::after {
-    content: "";
-    display: block;
-    background-color: #EEEEEE;
-    height: 1px;
-    position: relative;
-    top: 40px;
-}
-
-.company-list::before {
-    content: "";
-    display: block;
-    background-color: #EEEEEE;
-    height: 1px;
-    position: relative;
-    bottom: 40px;
-}
-
 .flex-cosmetic-block {
     display: flex;
     justify-content: space-between;
+    align-items: end;
 }
 
 .popular {
     font-family: Red_Hat_Display,'Helvetica Neue',sans-serif;
     font-size: 40px;
-    margin-top: 100px;
     line-height: 40px;
     font-weight: 500;
 }
@@ -156,11 +178,11 @@
 .discover {
     display: flex;
     justify-content: space-between;
+    align-items: end;
 }
 
 .arrow {
     font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
-    margin-top: 180px;
     font-size: 14px;
     font-weight: 500;
 }
@@ -205,7 +227,7 @@
     font-size: 25px;
     margin-top: 10px;
     line-height: 40px;
-    margin-left: 15px;
+    padding-left: 15px;
     font-weight: 500;
 }
 
@@ -215,18 +237,20 @@
     margin-top: 7px;
     line-height: 25px;
     font-size: 14px;
-    margin-left: 15px;
+    padding-left: 15px;
     font-weight: 400;
 }
 
 .buy {
     margin-bottom: 15px;
     margin-top: 45px;
+    padding-left: 15px;
 }
 
 .flex-text {
     display: flex;
     justify-content: space-between;
+    align-items: end;
 }
 
 .button-buy {
@@ -234,25 +258,26 @@
     color: #F9F6F5;
     background-color: #402F2C;
     padding: 14px 28px;
-    margin-left: 15px;
 }
 
 .button-add {
-    border: 1px solid #685A5275;
     font-size: 14px;
+    border: 1px solid #685A5275;
     padding: 14px 28px;
-    margin-left: 17px;
     background-color: white;
+    margin-left: 10px;
 }
 
 .text {
     font-size: 23px;
     font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
-    margin-top: 58px;
-    margin-right: 20px;
+    margin-bottom: 25px;
+    padding-right: 15px;
 }
 
-.header-three {
+
+
+.main-block {
     border: #FDF8F5;
     background-color: #FDF8F5;
 }
@@ -277,6 +302,8 @@
     font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
     margin-left: 10px;
     font-weight: 700;
+    font-style: bold;
+    border-bottom: 2px solid black;
 }
 
 .title-ab {
@@ -285,17 +312,6 @@
     font-size: 17px;
     margin-top: 24px;
     font-weight: 400;
-}
-
-.one-hundred::after {
-    content: "";
-    display: block;
-    background-color: black;
-    height: 2px;
-    width: 88px;
-    position: relative;
-    top: 5px;
-    left: 10px;
 }
 
 
@@ -343,13 +359,16 @@
     justify-content: space-between;
 }
 
-.amazing-box {
-    margin-top: 150px;
+.block-professional {
+    margin-top: 70px;
 }
 
 .girl {
     width: 530px;
-    margin-top: 70px;
+}
+
+.amazing-box {
+    margin-top: 40px;
 }
 
 .super-des {
@@ -375,14 +394,14 @@
 .pro {
     font-family: Roboto,'Helvetica Neue',sans-serif ;
     color: #555555;
-    font-size: 15px;
+    font-size: 35px;
     margin-top: 5px;
     line-height: 20px;
     font-weight: 400;
 }
 
 
-.header-five {
+.footer-box {
     border: #FAFAFA;
     background-color: #FAFAFA;
 }
@@ -397,70 +416,67 @@
     padding-bottom: 40px;
 }
 
+.footer {
+    border-bottom: 1px solid  #DDDDDD;
+}
+
 .flex-footer {
     display: flex;
     justify-content: space-between;
 }
 
+.news {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
+}
+
 .subscribe {
     font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
     color: black;
-    font-size: 30px;
+    font-size: 10px;
     margin-top: 20px;
     font-weight: 500;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
-.flex-sub {
-    display: flex;
-    background-color: white;
-    justify-content: space-between;
+.info-input {
+    margin-right: 100px;
 }
 
-.info-email {
+.mai {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.info-footer {
     font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
     color:#555555;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 400;
-    padding-right: 100px;
-    margin-top: 28px;
-    margin-left: 5px;
+    padding-left: 10px;
 }
 
 .button-footer {
     font-size: 14px;
     color: #F9F6F5;
     background-color: #402F2C;
-    padding: 10px 23px; 
-    margin-top: 15px;
-    margin-right: 5px;
-}
-
-.footer::after {
-    content: "";
-    display: block;
-    background-color: #DDDDDD;
-    height: 1px;
+    padding: 7px 18px; 
     position: relative;
-    top: 35px;
+    left: 95px;
+    bottom: 33px;
 }
 
 .footer-dudeshape {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .dudeshape {
-    font-size: 25px;
+    font-size: 30px;
     font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
     font-weight: 700;
-}
-
-.dudeshape::after {
-    content: "";
-    display: block;
-    background-color: black;
-    height: 2px;
-    width: 136px;
+    font-style: italic;
+    border-bottom: 2px solid black;
 }
 
 .dude-about {
@@ -497,11 +513,17 @@
     font-weight: 500;
 }
 
-.flex-social-img {
-    display: flex;
-    justify-content: space-between;
+.nav-home {
+    margin-bottom: 20px;
 }
 
-.social-img {
-    margin-top: 20px;
+.flex-social-img {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+}
+
+.list-social {
+    display: inline;
+    margin-right: 10px;
 }
