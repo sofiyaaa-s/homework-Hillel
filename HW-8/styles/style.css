@@ -202,12 +202,14 @@
     left: 208px;
 }
 
+.face__main {
+    padding: 20px 15px;
+}
+
 .face__title {
     font-family: Red_Hat_Display,'Helvetica Neue',sans-serif;
     font-size: 25px;
-    margin-top: 10px;
     line-height: 40px;
-    padding-left: 15px;
     font-weight: 500;
 }
 
@@ -217,14 +219,11 @@
     margin-top: 7px;
     line-height: 25px;
     font-size: 14px;
-    padding-left: 15px;
     font-weight: 400;
 }
 
 .buy {
-    margin-bottom: 15px;
     margin-top: 45px;
-    padding-left: 15px;
 }
 
 .flex-text {
@@ -251,8 +250,7 @@
 .buy__text {
     font-size: 23px;
     font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
-    margin-bottom: 25px;
-    padding-right: 15px;
+    margin-bottom: 7px;
 }
 
 
