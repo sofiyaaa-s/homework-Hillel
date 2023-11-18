@@ -202,7 +202,7 @@
     left: 208px;
 }
 
-.title {
+.face__title {
     font-family: Red_Hat_Display,'Helvetica Neue',sans-serif;
     font-size: 25px;
     margin-top: 10px;
@@ -211,7 +211,7 @@
     font-weight: 500;
 }
 
-.title-about {
+.face__title-about {
     font-family: Roboto,'Helvetica Neue',sans-serif ;
     color: #555555;
     margin-top: 7px;
@@ -248,7 +248,7 @@
     margin-left: 10px;
 }
 
-.text {
+.buy__text {
     font-size: 23px;
     font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
     margin-bottom: 25px;
@@ -281,7 +281,7 @@
     text-align: center;
 }
 
-.one-hundred {
+.percent__one-hundred {
     font-size: 56px;
     font-family: Red_Hat_Display,'Helvetica Neue',sans-serif ;
     font-weight: 700;
@@ -289,7 +289,7 @@
     border-bottom: 2px solid black;
 }
 
-.title-ab {
+.percent__title-ab {
     font-family: Roboto,'Helvetica Neue',sans-serif ;
     color: #555555;
     font-size: 17px;
@@ -333,7 +333,7 @@
     font-weight: 400;
 }
 
-.lili {
+.img__lili {
     width: 550px;
 }
 
